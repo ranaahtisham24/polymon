@@ -2,7 +2,6 @@ import Image from 'next/image'
 import React from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap'
 import packImg from '../../public/assets/images/OpenpackRImg2.svg'
-// import packImgBg from '../../public/assets/images/OpenpackheroRImg.svg'
 
 const OpenPackHero = () => {
     return (
