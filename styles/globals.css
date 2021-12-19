@@ -46,6 +46,16 @@ input:focus{
   margin: 0 auto;
 }
 
+/* start of openPack */
+
+.openpack-wrapper {
+    background: url("../public/assets/images/Openpackpagebg.svg") no-repeat;
+    background-size: cover;
+    background-position: unset;
+    height: 50rem;
+    width: 100%;
+}
+
 .bannerbutton{
     border: none;
     color: white;
@@ -154,6 +164,9 @@ input:focus{
     background-color: #8648E5;
     height: 100%;
     width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     color: white;
     margin: 0 auto;
     border-radius: 5px;
@@ -206,6 +219,10 @@ input:focus{
   font-size: 4rem;
   font-weight: bold;
   word-break: unset;
+    font-size: 4rem;
+    font-weight: bold;
+    word-break: unset;
+    letter-spacing: -2px;
 }
 
 .openpack-hero-left button {
@@ -230,7 +247,57 @@ input:focus{
 /*================================ Header========================= */
 .header {
   padding: 0px 40px;
+    width: 100;
+    height: 100vh;
 }
+
+.openpack-hero-right div {
+    background: url("../public/assets/images/OpenpackheroRImg.svg") no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 86%;
+    margin-left: 4rem;
+    height: 100%;
+}
+
+.openpakrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.innerimage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* end of openPack */
+
+
+/* start of store */
+
+.store-banner {
+    background: url("../public/assets/images/headerbg.svg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 22rem;
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.store-banner h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+
+
+/* end of store */
+
 .headermenu a {
   padding: 10px;
   text-decoration: none;
@@ -242,6 +309,15 @@ input:focus{
   border-radius: 20px;
   background-color: #8648e5;
   color: white;
+    padding: 5px 15px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: #8648e5;
+    color: white;
+}
+
+.header {
+    padding: 2rem 8rem !important;
 }
 /*================================ Header========================= */
 /*================================ Footer========================= */

@@ -6,7 +6,7 @@ import logo from "../../public/assets/images/logo.svg";
 
 const Header = () => {
   return (
-    <Navbar bg="dark" variant="dark" className="header">
+    <Navbar className="header">
       <Navbar.Brand href="#home">
         <Image
         //   loader={myLoader}
