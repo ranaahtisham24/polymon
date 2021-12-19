@@ -1,16 +1,58 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.openpack-wrapper {
+    background: url("../public/assets/images/Openpackpagebg.svg") no-repeat;
+    background-size: cover;
+    background-position: unset;
+    height: 100vh;
+    width: 100%;
+}
+
+.openpack-hero-left {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.openpack-hero-left h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    word-break: unset;
+}
+
+.openpack-hero-left button {
+    border-radius: 50px;
+    background-color: #8338EC;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1.5rem 3rem;
+}
+
+.openpack-hero-right {
+    width: 100;
+    height: 50vh;
+}
+
+.openpack-hero-right div {
+    background: url("../public/assets/images/OpenpackheroRImg.svg") no-repeat;
+    background-size: contain;
 }

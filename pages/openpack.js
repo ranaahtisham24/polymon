@@ -3,7 +3,7 @@ import OpenPackHero from '../components/openpack/OpenPackHero'
 
 const openpack = () => {
     return (
-        <div>
+        <div className='openpack-wrapper'>
             <OpenPackHero/>
         </div>
     )
