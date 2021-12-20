@@ -13,15 +13,6 @@ a {
 * {
     box-sizing: border-box;
 }
-h1 {
-  font-size: 50px;
-  text-align: center;
-  font-weight: bold;
-}
-p {
-  text-align: center;
-  font-size: 13px;
-}
 input:focus {
   outline: none;
 }
@@ -58,7 +49,15 @@ input:focus {
     background-repeat: no-repeat;
     background-position: initial;
 }
-
+.bannercontent h1 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+.bannercontent p {
+  text-align: center;
+  font-size: 13px;
+}
 .bannercontent {
     color: white;
     display: flex;
@@ -72,14 +71,6 @@ input:focus {
 
 
 /* start of openPack */
-
-.openpack-wrapper {
-  background: url("../public/assets/images/Openpackpagebg.svg") no-repeat;
-  background-size: cover;
-  background-position: unset;
-  height: 50rem;
-  width: 100%;
-}
 
 .bannerbutton {
   border: none;
@@ -467,7 +458,7 @@ body .DiscoverList-slider .slick-next:before{
     background: url("../public/assets/images/Openpackpagebg.svg") no-repeat;
     background-size: cover;
     background-position: unset;
-    height: 100vh;
+    height: fit-content;
     width: 100%;
 }
 
@@ -522,7 +513,9 @@ body .DiscoverList-slider .slick-next:before{
 
 
 /*================================ Header========================= */
-
+.store-banner  h1{
+  text-align: left;
+}
 .openpack-hero-right div {
   background: url("../public/assets/images/OpenpackheroRImg.svg") no-repeat;
   background-size: contain;
@@ -542,6 +535,9 @@ body .DiscoverList-slider .slick-next:before{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.innerimage img{
+  height: 80vh;
 }
 
 /* end of openPack */

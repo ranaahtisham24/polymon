@@ -22,13 +22,13 @@ const Header = ({polymon, store, openpack}) => {
           <Link href="/">
             <a>Home</a>
           </Link>
-          <Link href="/">
+          <Link href="/openpack">
             <a>Open Pack</a>
           </Link>
-          <Link href="/">
+          <Link href="/store">
             <a>Store</a>
           </Link>
-          <Link href="/">
+          <Link href="/polymon">
             <a>Polymon</a>
           </Link>
           <button className="contact">Connect</button>
