@@ -14,6 +14,44 @@ a {
     box-sizing: border-box;
 }
 
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    font-size: 13px;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+/*================================ Home Page ========================= */
+
+.banner {
+    background-image: linear-gradient(#1e2947c4, #8648e521), url(../public/assets/images/homeherobg.svg);
+    /* background-image: url(../public/assets/images/homeherobg.svg); */
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: initial;
+}
+
+.bannercontent {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 40%;
+    margin: 0 auto;
+}
+
 
 /* start of openPack */
 
@@ -25,17 +63,195 @@ a {
     width: 100%;
 }
 
+.bannerbutton {
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 30px;
+    background-color: #8D4FEC;
+}
+
+.bannercontent h1 {
+    font-size: 50px;
+}
+
+.bastset {
+    color: white;
+    height: 100vh;
+    /* background-color: #1E2947; */
+    background-image: linear-gradient(to bottom, #1E2947, #1E2947);
+}
+
+.POLYMON {
+    background-color: #1E2947;
+    color: white;
+    height: 80vh;
+}
+
+.POLYMON-content {
+    padding: 50px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.Discover {
+    padding: 40px 0px;
+}
+
+.DiscoverCard {
+    margin: 10px;
+}
+
+.RoadMap-Wrapper {
+    background-color: #1E2947;
+    padding: 50px 50px;
+    color: white;
+}
+
+.RoadMap-leftcard {
+    box-shadow: 0px 0px 20px 0px #888888;
+    background-color: #fff;
+    align-items: center;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    width: 450px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.RoadMap-rightcard {
+    box-shadow: 0px 0px 20px 0px #888888;
+    background-color: #fff;
+    align-items: center;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    width: 450px;
+    height: 150px;
+    margin-left: 400px;
+}
+
+.RoadMap-card-contect p {
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.RoadMap-img {
+    text-align: center;
+}
+
+.RoadMap-img img {
+    width: 180px !important;
+    height: 135px !important;
+    margin-top: 3px !important;
+}
+
+.RoadMap-card-contect {
+    width: 50%;
+}
+
+.RoadMap-cards {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.roadmapheadeing {
+    margin-bottom: 40px;
+}
+
+.TokenSupply {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.TokenSupplyImg {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.emailMarkting {
+    background-image: url(../public/assets/images/homefooterbg.svg);
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #8648E5;
+    height: 70vh;
+    padding: 50px 0px;
+}
+
+.emailMarktingform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #8648E5;
+    height: 100%;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 0px #AB79F8;
+}
+
+.emailMarktingforminput input {
+    padding: 13px 130px 13px 15px;
+    border: 0px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.emailMarktingforminput button {
+    border: none;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 40px;
+    background-color: #1E2947;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+}
+
+.emailMarktingforminput {
+    position: relative;
+    width: 50%;
+    margin: 30px auto 0px auto;
+}
+
+
+/*================================ Home Page ========================= */
+
+
+/*================================ openpack ========================= */
+
+.openpack-wrapper {
+    background: url("../public/assets/images/Openpackpagebg.svg") no-repeat;
+    background-size: cover;
+    background-position: unset;
+    height: 100vh;
+    width: 100%;
+}
+
 .openpack-hero-left {
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
     color: white;
 }
 
 .openpack-hero-left h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    word-break: unset;
     font-size: 4rem;
     font-weight: bold;
     word-break: unset;
@@ -44,13 +260,30 @@ a {
 
 .openpack-hero-left button {
     border-radius: 50px;
-    background-color: #8338EC;
+    background-color: #8338ec;
     font-size: 1.5rem;
     font-weight: bold;
     padding: 1.5rem 3rem;
 }
 
 .openpack-hero-right {
+    width: 100;
+    height: 50vh;
+}
+
+.openpack-hero-right div {
+    background: url("../public/assets/images/OpenpackheroRImg.svg") no-repeat;
+    background-size: contain;
+}
+
+
+/*================================ openpack========================= */
+
+
+/*================================ Header========================= */
+
+.header {
+    padding: 0px 40px;
     width: 100;
     height: 100vh;
 }
@@ -135,6 +368,11 @@ body .header .headermenu a {
     border-radius: 20px;
     background-color: #8648e5;
     color: white;
+    padding: 5px 15px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: #8648e5;
+    color: white;
 }
 
 .header {
@@ -190,3 +428,6 @@ body .polymon-header .headermenu button {
     width: 30px !important;
     height: 30px !important;
 }
+
+
+/*================================ Footer========================= */
