@@ -33,7 +33,7 @@ const RelatedPost = () => {
                     <div style={{ margin: '6px', borderTopLeftRadius: '8px', borderTopRightRadius: '8px', background:'linear-gradient(to right, #8338EC, #e2a58d)', height:'12rem', width:'19.3rem' }}>
                         <Card.Img style={{width:'100%', height:'100%'}} src={obj.cardImg} />
                     </div>
-                    <Card.Body>  
+                    <Card.Body style={{display:'flex', flexDirection:'column', textAlign:'left'}}>  
                         <Card.Text style={{ fontWeight: '700', color: 'rgb(227, 166, 142)', fontSize:'14px'}}>
                             {obj.cardDate}
                         </Card.Text>
