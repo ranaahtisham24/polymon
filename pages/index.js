@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Footer from "../components/footer/Footer";
 import Banner from "../components/homepage/Banner";
 import DiscoverList from "../components/homepage/DiscoverList";
 import RoadMap from "../components/homepage/RoadMap";
@@ -46,6 +47,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

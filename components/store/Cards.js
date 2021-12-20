@@ -86,7 +86,7 @@ const Cards = () => {
                         <Card.Body style={{ padding:'10px'}}>
                             <Card.Title style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center',margin:'0px',padding:'0 6px' }}>
                                 <h4 style={{ fontWeight: '700', letterSpacing:'-1px' }}>{obj.cardTitle}</h4>
-                                <Badge pill style={{ fontSize: '12px',backgroundColor:'#b39e2c !important' }}>Available</Badge>
+                                <Badge pill className="available-btn">Available</Badge>
                             </Card.Title>
                             <Card.Text style={{ display: 'flex', alignItems: 'center', fontWeight: '500', color: '#8338EC', marginBottom:'8px', padding:'0 6px' }}>
                                 <img src={obj.logo} style={{marginRight:'2px'}} />

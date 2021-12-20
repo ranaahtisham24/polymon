@@ -1,704 +1,832 @@
-html,
-body {
-    padding: 0;
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-input:focus {
-    outline: none;
-}
-
-h1 {
-    font-size: 50px;
-    font-weight: bold;
-}
-
-p {
-    font-size: 13px;
-}
-
-input:focus {
-    outline: none;
-}
-
-
-/*================================ Home Page ========================= */
-
-.banner {
-    background-image: linear-gradient(#1e2947c4, #8648e521), url(../public/assets/images/homeherobg.svg);
-    /* background-image: url(../public/assets/images/homeherobg.svg); */
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: initial;
-    background-image: linear-gradient(#1e2947c4, #8648e521), url(../public/assets/images/homeherobg.svg);
-    /* background-image: url(../public/assets/images/homeherobg.svg); */
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: initial;
-}
-
-.bannercontent h1 {
-    font-size: 50px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.bannercontent p {
-    text-align: center;
-    font-size: 13px;
-}
-
-.bannercontent {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 40%;
-    margin: 0 auto;
-}
-
-
-/* start of openPack */
-
-.bannerbutton {
-    border: none;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px 40px;
-    border-radius: 30px;
-    background-color: #8d4fec;
-}
-
-.bannercontent h1 {
-    font-size: 50px;
-}
-
-.bastset {
-    color: white;
-    height: 80vh;
-    /* background-color: #1E2947; */
-    padding-top: 50px;
-    background-image: linear-gradient(to bottom, #1e2947, #1e2947);
-}
-
-.mainbast-wrapper {
-    position: relative;
-}
-
-.POLYMON {
-    background-color: #1e2947;
-    color: white;
-    height: 80vh;
-}
-
-.POLYMON-content {
-    padding: 50px;
-    width: 50%;
-    margin: 0 auto;
-}
-
-.Discover {
-    padding: 40px 0px;
-    background-color: #f2e8ff;
-}
-
-.DiscoverCard {
-    margin: 10px;
-}
-
-.RoadMap-Wrapper {
-    background-color: #1e2947;
-    padding: 50px 50px;
-    color: white;
-}
-
-.RoadMap-leftcard {
-    box-shadow: 0px 0px 20px 0px #888888;
-    background-color: #fff;
-    align-items: center;
-    border-radius: 5px;
-    color: black;
-    display: flex;
-    width: 450px;
-    height: 150px;
-    margin: 0 auto;
-}
-
-.RoadMap-rightcard {
-    box-shadow: 0px 0px 20px 0px #888888;
-    background-color: #fff;
-    align-items: center;
-    border-radius: 5px;
-    color: black;
-    display: flex;
-    width: 450px;
-    height: 150px;
-    margin-left: 400px;
-}
-
-.RoadMap-card-contect p {
-    text-align: left;
-    margin-bottom: 0px;
-}
-
-.RoadMap-img {
-    text-align: center;
-}
-
-.RoadMap-img img {
-    width: 180px !important;
-    height: 135px !important;
-    margin-top: 3px !important;
-}
-
-.RoadMap-card-contect {
-    width: 50%;
-}
-
-.RoadMap-cards {
-    width: 70%;
-    margin: 0 auto;
-}
-
-.roadmapheadeing {
-    margin-bottom: 40px;
-}
-
-.TokenSupply {
-    text-align: center;
-    padding: 50px 0px;
-}
-
-.TokenSupplyImg {
-    width: 35%;
-    margin: 0 auto;
-}
-
-.emailMarkting {
-    background-image: url(../public/assets/images/homefooterbg.svg);
-    background-position: initial;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color: #8648e5;
-    height: 70vh;
-    padding: 50px 0px;
-}
-
-.emailMarktingform {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #8648e5;
-    height: 100%;
-    width: 70%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    margin: 0 auto;
-    border-radius: 5px;
-    box-shadow: 0px 0px 20px 0px #ab79f8;
-    text-align: center;
-}
-
-.emailMarktingforminput input {
-    padding: 13px 130px 13px 15px;
-    border: 0px;
-    width: 100%;
-    border-radius: 30px;
-}
-
-.emailMarktingforminput button {
-    border: none;
-    color: white;
-    border-radius: 30px;
-    padding: 10px 40px;
-    background-color: #1e2947;
-    position: absolute;
-    right: 3px;
-    top: 3px;
-}
-
-.emailMarktingforminput {
-    position: relative;
-    width: 50%;
-    margin: 30px auto 0px auto;
-}
-
-.slick-prev,
-.slick-next {
-    font-size: 0;
-    line-height: 0;
-    position: absolute;
-    top: 50%;
-    display: block;
-    width: 25px;
-    height: 25px;
-    padding: 1.5px 0px 0px 0.5px;
-    -webkit-transform: translate(0, -50%);
-    -moz-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-    cursor: pointer;
-    color: #8d4fec;
-    border: none;
-    outline: none;
-    background: #8d4fec;
-    border-radius: 100%;
-}
-
-body .BastsetList .slick-prev:before,
-body .BastsetList .slick-next:before {
-    font-family: "slick";
-    font-size: 35px;
-    line-height: 1;
-    opacity: 0.75;
-    color: white;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.BastsetList {
-    width: 70%;
-    margin: 0 auto;
-}
-
-.BastsetList-matic {
-    color: black;
-}
-
-.BastsetList-title {
-    color: black;
-}
-
-.BastsetList .slick-list {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.BastsetList-wrapper {
-    background-color: #8d4fec;
-    height: 80vh;
-    position: relative;
-}
-
-.inner-BastsetList-wrapper {
-    position: absolute;
-    top: -46.5%;
-    left: 0px;
-    right: 0px;
-}
-
-.inner-DiscoverList-wrapper {
-    padding: 50px 0px;
-}
-
-body .DiscoverList-slider .slick-prev {
-    left: 46%;
-    top: 108%;
-}
-
-body .DiscoverList-slider .slick-next {
-    right: 46%;
-    top: 108%;
-}
-
-body .DiscoverList-slider .slick-prev:before {
-    font-size: 35px;
-    color: #8d4fec;
-}
-
-body .DiscoverList-slider .slick-next:before {
-    font-size: 35px;
-    color: #8d4fec;
-    border: none;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px 40px;
-    border-radius: 30px;
-    background-color: #8D4FEC;
-}
-
-.bannercontent h1 {
-    font-size: 50px;
-}
-
-.bastset {
-    color: white;
-    height: 100vh;
-    /* background-color: #1E2947; */
-    background-image: linear-gradient(to bottom, #1E2947, #1E2947);
-}
-
-.POLYMON {
-    background-color: #1E2947;
-    color: white;
-    height: 80vh;
-}
-
-.POLYMON-content {
-    padding: 50px;
-    width: 50%;
-    margin: 0 auto;
-}
-
-.Discover {
-    padding: 40px 0px;
-}
-
-.DiscoverCard {
-    margin: 10px;
-}
-
-.RoadMap-Wrapper {
-    background-color: #1E2947;
-    padding: 50px 50px;
-    color: white;
-}
-
-.RoadMap-leftcard {
-    box-shadow: 0px 0px 20px 0px #888888;
-    background-color: #fff;
-    align-items: center;
-    border-radius: 5px;
-    color: black;
-    display: flex;
-    width: 450px;
-    height: 150px;
-    margin: 0 auto;
-}
-
-.RoadMap-rightcard {
-    box-shadow: 0px 0px 20px 0px #888888;
-    background-color: #fff;
-    align-items: center;
-    border-radius: 5px;
-    color: black;
-    display: flex;
-    width: 450px;
-    height: 150px;
-    margin-left: 400px;
-}
-
-.RoadMap-card-contect p {
-    text-align: left;
-    margin-bottom: 0px;
-}
-
-.RoadMap-img {
-    text-align: center;
-}
-
-.RoadMap-img img {
-    width: 180px !important;
-    height: 135px !important;
-    margin-top: 3px !important;
-}
-
-.RoadMap-card-contect {
-    width: 50%;
-}
-
-.RoadMap-cards {
-    width: 70%;
-    margin: 0 auto;
-}
-
-.roadmapheadeing {
-    margin-bottom: 40px;
-}
-
-.TokenSupply {
-    text-align: center;
-    padding: 50px 0px;
-}
-
-.TokenSupplyImg {
-    width: 35%;
-    margin: 0 auto;
-}
-
-.emailMarkting {
-    background-image: url(../public/assets/images/homefooterbg.svg);
-    background-position: initial;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color: #8648E5;
-    height: 70vh;
-    padding: 50px 0px;
-}
-
-.emailMarktingform {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #8648E5;
-    height: 100%;
-    width: 70%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    color: white;
-    margin: 0 auto;
-    border-radius: 5px;
-    box-shadow: 0px 0px 20px 0px #AB79F8;
-}
-
-.emailMarktingforminput input {
-    padding: 13px 130px 13px 15px;
-    border: 0px;
-    width: 100%;
-    border-radius: 30px;
-}
-
-.emailMarktingforminput button {
-    border: none;
-    color: white;
-    border-radius: 30px;
-    padding: 10px 40px;
-    background-color: #1E2947;
-    position: absolute;
-    right: 3px;
-    top: 3px;
-}
-
-.emailMarktingforminput {
-    position: relative;
-    width: 50%;
-    margin: 30px auto 0px auto;
-}
-
-
-/*================================ Home Page ========================= */
-
-
-/*================================ openpack ========================= */
-
-.openpack-wrapper {
-    background: url("../public/assets/images/Openpackpagebg.svg") no-repeat;
-    background-size: cover;
-    background-position: unset;
-    height: fit-content;
-    width: 100%;
-}
-
-.openpack-hero-left {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-}
-
-.openpack-hero-left h1 {
-    font-size: 4rem;
-    font-weight: bold;
-    word-break: unset;
-    font-size: 4rem;
-    font-weight: bold;
-    word-break: unset;
-    letter-spacing: -2px;
-    font-size: 4rem;
-    font-weight: bold;
-    word-break: unset;
-    font-size: 4rem;
-    font-weight: bold;
-    word-break: unset;
-    letter-spacing: -2px;
-}
-
-.openpack-hero-left button {
-    border-radius: 50px;
-    background-color: #8338ec;
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 1.5rem 3rem;
-}
-
-.openpack-hero-right {
-    width: 100;
-    height: 50vh;
-}
-
-.openpack-hero-right div {
-    background: url("../public/assets/images/OpenpackheroRImg.svg") no-repeat;
-    background-size: contain;
-}
-
-
-/*================================ openpack========================= */
-
-
-/*================================ Header========================= */
-
-.store-banner h1 {
-    text-align: left;
-}
-
-.openpack-hero-right div {
-    background: url("../public/assets/images/OpenpackheroRImg.svg") no-repeat;
-    background-size: contain;
-    background-position: center;
-    width: 86%;
-    margin-left: 4rem;
-    height: 100%;
-}
-
-.openpakrow {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.innerimage {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.innerimage img {
-    height: 80vh;
-}
-
-
-/* end of openPack */
-
-
-/* start of store */
-
-.store-banner {
-    background: url("../public/assets/images/headerbg.svg") no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 22rem;
-    /* display: flex; */
-    /* align-items: center; */
-}
-
-.store-banner h1 {
-    font-size: 4rem;
-    font-weight: 700;
-    color: white;
-    padding-left: 3rem;
-    padding-top: 2rem;
-}
-
-
-/* end of store */
-
-
-/* start of polymon */
-
-.polymon-main-container .page-link {
-    border-radius: 50%;
-    border: 2px solid#8338EC;
-    color: #8338EC;
-    font-weight: 700;
-    margin-right: 6px;
-    background: none;
-}
-
-.polymon-main-container .page-item.active .page-link {
-    background-color: #8338EC;
-    color: white;
-}
-
-
-/* end of polymon */
-
-body .header .headermenu a {
-    padding: 10px 20px;
-    text-decoration: none;
-    color: rgb(194, 154, 255);
-    font-weight: 500;
-}
-
-.contact {
-    padding: 5px 15px;
-    border: 0px;
-    border-radius: 20px;
-    background-color: #8648e5;
-    color: white;
-    padding: 5px 15px;
-    border: 0px;
-    border-radius: 20px;
-    background-color: #8648e5;
-    color: white;
-}
-
-.header {
-    padding: 2rem 8rem !important;
-}
-
-body .polymon-header .headermenu button {
-    /* background-color: rgb(30, 41, 71); */
-    background-color: rgb(76 86 114);
-}
-
-
-/* body .openpack-header .headermenu a {
+    @font-face {
+        font-family: 'Oswald Regular';
+        src: url(../public/assets/Oswald/static/Oswald-Regular.ttf);
+    }
+    
+    @font-face {
+        font-family: 'Oswald Medium';
+        src: url(../public/assets/Oswald/static/Oswald-Medium.ttf);
+    }
+    
+    @font-face {
+        font-family: 'Oswald Bold';
+        src: url(../public/assets/Oswald/static/Oswald-Bold.ttf);
+    }
+    
+    html,
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Oswald Regular', sans-serif;
+    }
+    
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+    
+    * {
+        font-family: 'Oswald Regular';
+        box-sizing: border-box;
+    }
+    
+    input:focus {
+        outline: none;
+    }
+    
+    .navbar-light .navbar-text a,
+    .navbar-light .navbar-text a:focus,
+    .navbar-light .navbar-text a:hover {
+        color: white;
+    }
+    
+    h1 {
+        font-size: 50px;
+        font-family: 'Oswald Bold';
+        font-weight: bold;
+    }
+    
+    p {
+        font-family: 'Oswald Regular';
+        font-size: 13px;
+    }
+    
+    input:focus {
+        outline: none;
+    }
+    
+    body button:focus {
+        box-shadow: none !important;
+        outline: none !important;
+    }
+    
+    body button:active {
+        box-shadow: none !important;
+        outline: none !important;
+    }
+    
+    .headermenu a:hover {
+        color: white !important;
+    }
+    /*================================ Home Page ========================= */
+    
+    .banner {
+        background-image: linear-gradient(#1e2947c4, #8648e521), url(../public/assets/images/homeherobg.svg);
+        /* background-image: url(../public/assets/images/homeherobg.svg); */
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: initial;
+        background-image: linear-gradient(#1e2947c4, #8648e521), url(../public/assets/images/homeherobg.svg);
+        /* background-image: url(../public/assets/images/homeherobg.svg); */
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: initial;
+    }
+    
+    .bannercontent h1 {
+        font-size: 50px;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .bannercontent p {
+        text-align: center;
+        font-size: 13px;
+    }
+    
+    .bannercontent {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 40%;
+        margin: 0 auto;
+    }
+    /* start of openPack */
+    
+    .bannerbutton {
+        border: none;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px 40px;
+        border-radius: 30px;
+        background-color: #8d4fec;
+    }
+    
+    .bannercontent h1 {
+        font-size: 50px;
+    }
+    
+    .bastset {
+        color: white;
+        height: 80vh;
+        /* background-color: #1E2947; */
+        padding-top: 50px;
+        background-image: linear-gradient(to bottom, #1e2947, #1e2947);
+    }
+    
+    .mainbast-wrapper {
+        position: relative;
+    }
+    
+    .POLYMON {
+        background-color: #1e2947;
+        color: white;
+        height: 80vh;
+    }
+    
+    .POLYMON-content {
+        padding: 50px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .Discover {
+        padding: 40px 0px;
+        background-color: #f2e8ff;
+    }
+    
+    .DiscoverCard {
+        margin: 10px;
+    }
+    
+    .RoadMap-Wrapper {
+        background-color: #1e2947;
+        padding: 50px 50px;
+        color: white;
+    }
+    
+    .RoadMap-leftcard {
+        box-shadow: 0px 0px 20px 0px #888888;
+        background-color: #fff;
+        align-items: center;
+        border-radius: 5px;
+        color: black;
+        display: flex;
+        width: 450px;
+        height: 150px;
+        margin: 0 auto;
+    }
+    
+    .RoadMap-rightcard {
+        box-shadow: 0px 0px 20px 0px #888888;
+        background-color: #fff;
+        align-items: center;
+        border-radius: 5px;
+        color: black;
+        display: flex;
+        width: 450px;
+        height: 150px;
+        margin-left: 400px;
+    }
+    
+    .RoadMap-card-contect p {
+        text-align: left;
+        margin-bottom: 0px;
+    }
+    
+    .RoadMap-img {
+        text-align: center;
+    }
+    
+    .RoadMap-img img {
+        width: 180px !important;
+        height: 135px !important;
+        margin-top: 3px !important;
+    }
+    
+    .RoadMap-card-contect {
+        width: 50%;
+    }
+    
+    .RoadMap-cards {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .roadmapheadeing {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    .TokenSupply {
+        text-align: center;
+        padding: 50px 0px;
+    }
+    
+    .TokenSupplyImg {
+        width: 35%;
+        margin: 0 auto;
+    }
+    
+    .emailMarkting {
+        background-image: url(../public/assets/images/homefooterbg.svg);
+        background-position: initial;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #8648e5;
+        height: 70vh;
+        padding: 50px 0px;
+    }
+    
+    .emailMarktingform {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #8648e5;
+        height: 100%;
+        width: 70%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin: 0 auto;
+        border-radius: 5px;
+        box-shadow: 0px 0px 20px 0px #ab79f8;
+        text-align: center;
+    }
+    
+    .emailMarktingforminput input {
+        padding: 13px 130px 13px 15px;
+        border: 0px;
+        width: 100%;
+        border-radius: 30px;
+    }
+    
+    .emailMarktingforminput button {
+        border: none;
+        color: white;
+        border-radius: 30px;
+        padding: 10px 40px;
+        background-color: #1e2947;
+        position: absolute;
+        right: 3px;
+        top: 3px;
+    }
+    
+    .emailMarktingforminput {
+        position: relative;
+        width: 50%;
+        margin: 30px auto 0px auto;
+    }
+    
+    .slick-prev,
+    .slick-next {
+        font-size: 0;
+        line-height: 0;
+        position: absolute;
+        top: 50%;
+        display: block;
+        width: 25px;
+        height: 25px;
+        padding: 1.5px 0px 0px 0.5px;
+        -webkit-transform: translate(0, -50%);
+        -moz-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        cursor: pointer;
+        color: #8d4fec;
+        border: none;
+        outline: none;
+        background: #8d4fec;
+        border-radius: 100%;
+    }
+    
+    body .BastsetList .slick-prev:before,
+    body .BastsetList .slick-next:before {
+        font-family: "slick";
+        font-size: 35px;
+        line-height: 1;
+        opacity: 0.75;
+        color: white;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .BastsetList {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .BastsetList-matic {
+        color: black;
+    }
+    
+    .BastsetList-title {
+        color: black;
+    }
+    
+    .BastsetList .slick-list {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .BastsetList-wrapper {
+        background-color: #8d4fec;
+        height: 80vh;
+        position: relative;
+    }
+    
+    .inner-BastsetList-wrapper {
+        position: absolute;
+        top: -46.5%;
+        left: 0px;
+        right: 0px;
+    }
+    
+    .inner-DiscoverList-wrapper {
+        padding: 50px 0px;
+    }
+    
+    body .DiscoverList-slider .slick-prev {
+        left: 46%;
+        top: 108%;
+    }
+    
+    body .DiscoverList-slider .slick-next {
+        right: 46%;
+        top: 108%;
+    }
+    
+    body .DiscoverList-slider .slick-prev:before {
+        font-size: 35px;
+        color: #8d4fec;
+    }
+    
+    body .DiscoverList-slider .slick-next:before {
+        font-size: 35px;
+        color: #8d4fec;
+    }
+    
+    .bannercontent h1 {
+        font-size: 50px;
+    }
+    
+    .bastset {
+        color: white;
+        height: 100vh;
+        text-align: center;
+        /* background-color: #1E2947; */
+        background-image: linear-gradient(to bottom, #1e2947, #1e2947);
+    }
+    
+    .POLYMON {
+        background-color: #1e2947;
+        color: white;
+        height: 80vh;
+    }
+    
+    .POLYMON-content {
+        padding: 50px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .Discover {
+        padding: 40px 0px;
+        text-align: center;
+    }
+    
+    .DiscoverCard {
+        margin: 10px;
+    }
+    
+    .RoadMap-Wrapper {
+        background-color: #1e2947;
+        padding: 50px 50px;
+        color: white;
+    }
+    
+    .RoadMap-leftcard {
+        box-shadow: 0px 0px 20px 0px #888888;
+        background-color: #fff;
+        align-items: center;
+        border-radius: 5px;
+        color: black;
+        display: flex;
+        width: 450px;
+        height: 150px;
+        margin: 0 auto;
+    }
+    
+    .RoadMap-rightcard {
+        box-shadow: 0px 0px 20px 0px #888888;
+        background-color: #fff;
+        align-items: center;
+        border-radius: 5px;
+        color: black;
+        display: flex;
+        width: 450px;
+        height: 150px;
+        margin-left: 400px;
+    }
+    
+    .RoadMap-card-contect p {
+        text-align: left;
+        margin-bottom: 0px;
+    }
+    
+    .RoadMap-img {
+        text-align: center;
+    }
+    
+    .RoadMap-img img {
+        width: 180px !important;
+        height: 135px !important;
+        margin-top: 3px !important;
+    }
+    
+    .RoadMap-card-contect {
+        width: 50%;
+    }
+    
+    .RoadMap-cards {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .roadmapheadeing {
+        margin-bottom: 40px;
+    }
+    
+    .TokenSupply {
+        text-align: center;
+        padding: 50px 0px;
+    }
+    
+    .TokenSupplyImg {
+        width: 35%;
+        margin: 0 auto;
+    }
+    
+    .emailMarkting {
+        background-image: url(../public/assets/images/homefooterbg.svg);
+        background-position: initial;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #8648e5;
+        height: 70vh;
+        padding: 50px 0px;
+    }
+    
+    .emailMarktingform {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #8648e5;
+        height: 100%;
+        width: 70%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin: 0 auto;
+        border-radius: 5px;
+        box-shadow: 0px 0px 20px 0px #ab79f8;
+    }
+    
+    .emailMarktingforminput input {
+        padding: 13px 130px 13px 15px;
+        border: 0px;
+        width: 100%;
+        border-radius: 30px;
+    }
+    
+    .emailMarktingforminput button {
+        border: none;
+        color: white;
+        border-radius: 30px;
+        padding: 10px 40px;
+        background-color: #1e2947;
+        position: absolute;
+        right: 3px;
+        top: 3px;
+    }
+    
+    .emailMarktingforminput {
+        position: relative;
+        width: 50%;
+        margin: 30px auto 0px auto;
+    }
+    /*================================ Home Page ========================= */
+    /*================================ openpack ========================= */
+    
+    .openpack-wrapper {
+        background: url("../public/assets/images/Openpackpagebg.svg") no-repeat;
+        background-size: cover;
+        background-position: unset;
+        height: fit-content;
+        width: 100%;
+    }
+    
+    .openpack-hero-left {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+    
+    .openpack-hero-left h1 {
+        font-size: 4rem;
+        font-weight: bold;
+        word-break: unset;
+        font-size: 4rem;
+        font-weight: bold;
+        word-break: unset;
+        letter-spacing: -2px;
+        font-size: 4rem;
+        font-weight: bold;
+        word-break: unset;
+        font-size: 4rem;
+        font-weight: bold;
+        word-break: unset;
+        letter-spacing: -2px;
+    }
+    
+    .openpack-hero-left button {
+        border-radius: 50px;
+        background-color: #8338ec;
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 1.5rem 3rem;
+    }
+    
+    .openpack-hero-right {
+        width: 100;
+        height: 50vh;
+    }
+    
+    .openpack-hero-right div {
+        background: url("../public/assets/images/OpenpackheroRImg.svg") no-repeat;
+        background-size: contain;
+    }
+    /*================================ openpack========================= */
+    /*================================ Header========================= */
+    
+    .store-banner h1 {
+        text-align: left;
+    }
+    
+    .openpack-hero-right div {
+        background: url("../public/assets/images/OpenpackheroRImg.svg") no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 86%;
+        margin-left: 4rem;
+        height: 100%;
+    }
+    
+    .openpakrow {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .innerimage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .innerimage img {
+        height: 80vh;
+    }
+    /* end of openPack */
+    /* start of store */
+    
+    body .available-btn {
+        background-color: #bca657 !important;
+        font-size: 12px;
+    }
+    
+    .store-banner {
+        background: url("../public/assets/images/headerbg.svg") no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 22rem;
+        /* display: flex; */
+        /* align-items: center; */
+    }
+    
+    .store-banner h1 {
+        font-size: 4rem;
+        font-weight: 700;
+        color: white;
+        padding-left: 3rem;
+        padding-top: 2rem;
+    }
+    /* end of store */
+    /* start of polymon */
+    
+    .polymon-main-container .page-link {
+        border-radius: 50%;
+        border: 2px solid#8338EC;
+        color: #8338ec;
+        font-weight: 700;
+        margin-right: 6px;
+        background: none;
+    }
+    
+    .polymon-main-container .page-item.active .page-link {
+        background-color: #8338ec;
+        color: white;
+    }
+    /* end of polymon */
+    
+    body .header .headermenu a {
+        padding: 10px 20px;
+        text-decoration: none;
+        color: rgb(194, 154, 255);
+        font-weight: 500;
+    }
+    
+    .contact {
+        padding: 5px 15px;
+        border: 0px;
+        border-radius: 20px;
+        background-color: #8648e5;
+        color: white;
+        padding: 5px 15px;
+        border: 0px;
+        border-radius: 20px;
+        background-color: #8648e5;
+        color: white;
+    }
+    
+    .header {
+        padding: 2rem 8rem !important;
+    }
+    
+    body .polymon-header .headermenu button {
+        /* background-color: rgb(30, 41, 71); */
+        background-color: rgb(76 86 114);
+    }
+    /* body .openpack-header .headermenu a {
     color: white;
 }  */
-
-.footer {
-    background-color: hsl(224, 41%, 20%);
-}
-
-.footercont {
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.footercopyright p {
-    margin-bottom: 0px;
-    color: white;
-}
-
-.footercopyright {
-    width: 30%;
-    text-align: center;
-}
-
-.footerlogo {
-    width: 30%;
-    padding-top: 10px;
-    text-align: center;
-}
-
-.footersocial {
-    width: 30%;
-    padding-top: 10px;
-    text-align: center;
-}
-
-.footersocial img {
+    
+    .footer {
+        background-color: hsl(224, 41%, 20%);
+    }
+    
+    .footercont {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .footercopyright p {
+        margin-bottom: 0px;
+        color: white;
+    }
+    
+    .footercopyright {
+        width: 30%;
+        text-align: center;
+    }
+    
+    .footerlogo {
+        width: 30%;
+        padding-top: 10px;
+        text-align: center;
+    }
+    
+    .footersocial {
+        width: 30%;
+        padding-top: 10px;
+        text-align: center;
+    }
+    /* .footersocial img {
     padding: 10px;
-    width: 30px !important;
-    height: 30px !important;
-}
-
-
-/*================================ Footer========================= */
+    width: 30px;
+    height: 30px;
+} */
+    
+    .footersocial .footerM {
+        width: 40px !important;
+        height: 40px !important;
+        margin: 0 10px;
+    }
+    
+    .footersocial .footerM img {
+        width: 35px !important;
+        height: 35px !important;
+    }
+    /*================================ Footer========================= */
+    
+    .popupmodal .modal-content {
+        background-color: #8648e5;
+    }
+    
+    .popupmodal {
+        background-color: #1e2947;
+        color: white;
+    }
+    
+    .popupcontent {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .popupimg {
+        width: 35%;
+    }
+    
+    .popupDetail {
+        width: 65%;
+    }
+    
+    .popup-mat {
+        display: flex;
+        align-items: center;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        padding-top: 10px;
+    }
+    
+    .popup-mat-img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .popup-mat-img img {
+        width: 40px !important;
+        height: 40px !important;
+        border-radius: 100%;
+    }
+    
+    .popupmodal .modal-content .popupcrosbtn {
+        width: fit-content;
+        float: right;
+        margin-bottom: 0px;
+        border: none;
+    }
+    
+    .popupcrosbtn button {
+        color: white;
+    }
+    
+    .popupDetail {
+        padding-left: 50px;
+    }
+    
+    .popupBtn {
+        margin-top: 30px;
+        background-color: #1e2947;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        padding: 10px 30px;
+    }
+    
+    #ex1Slider .slider-selection {
+        background: #BABABA;
+    }
+    
+    .rangeslider {
+        background: rgb(186, 140, 255) !important;
+    }
+    
+    .rangeslider-horizontal .rangeslider__fill {
+        background-color: white !important;
+    }
+    
+    .rangeslider-horizontal .rangeslider__handle {
+        width: 0px !important;
+    }
+    
+    .rangeslider .rangeslider__handle {
+        border: none !important;
+    }
+    
+    .rangeslider-horizontal .rangeslider__handle:after {
+        left: 0px !important;
+    }
+    
+    .rangeslider__handle-tooltip {
+        background: white !important;
+        color: black !important;
+        border-radius: 30px !important;
+        width: 120px !important;
+        height: 40px !important;
+        top: -2.8rem !important;
+    }
+    
+    .rangeslider__handle-tooltip::before {
+        content: "Days Left " !important;
+        font-size: 14px;
+        font-weight: 500;
+    }
