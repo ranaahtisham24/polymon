@@ -79,8 +79,8 @@ const Cards = () => {
         <Container>
             <Row style={{ padding: '6rem 1rem', justifyContent:'center'}}>
                 {storeCards.map((obj, ind) => (
-                    <Card style={{width:'15rem', marginRight:'1rem', marginBottom:'3rem', padding:'0px', border:'none'}} key={ind}>
-                        <div style={{margin:'6px' }}>
+                    <Card style={{width:'15rem', marginRight:'1rem', marginBottom:'3rem', padding:'0px', border:'none',borderRadius:'8px'}} key={ind}>
+                        <div style={{margin:'6px', borderTopLeftRadius:'8px', borderTopRightRadius:'8px' }}>
                         <Card.Img src={obj.cardImg} />
                         </div>
                         <Card.Body style={{ padding:'10px'}}>

@@ -5,8 +5,7 @@ import Header from '../components/header/Header'
 
 const store = () => {
     return (
-        <div style={{backgroundColor:'whitesmoke'}}>
-            {/* <Header/> */}
+        <div style={{backgroundColor:'rgb(242, 232, 255)'}}>
             <Banner/>
             <Cards/>
         </div>

@@ -102,9 +102,31 @@ a {
 
 /* end of store */
 
-.headermenu a {
-    padding: 10px;
+
+/* start of polymon */
+
+.polymon-main-container .page-link {
+    border-radius: 50%;
+    border: 2px solid#8338EC;
+    color: #8338EC;
+    font-weight: 700;
+    margin-right: 6px;
+    background: none;
+}
+
+.polymon-main-container .page-item.active .page-link {
+    background-color: #8338EC;
+    color: white;
+}
+
+
+/* end of polymon */
+
+body .header .headermenu a {
+    padding: 10px 20px;
     text-decoration: none;
+    color: rgb(194, 154, 255);
+    font-weight: 500;
 }
 
 .contact {
@@ -118,6 +140,16 @@ a {
 .header {
     padding: 2rem 8rem !important;
 }
+
+body .polymon-header .headermenu button {
+    /* background-color: rgb(30, 41, 71); */
+    background-color: rgb(76 86 114);
+}
+
+
+/* body .openpack-header .headermenu a {
+    color: white;
+}  */
 
 .footer {
     background-color: hsl(224, 41%, 20%);

@@ -4,9 +4,9 @@ import Link from "next/link";
 import Image from "next/image";
 import logo from "../../public/assets/images/logo.svg";
 
-const Header = () => {
+const Header = ({polymon, store, openpack}) => {
   return (
-    <Navbar className="header">
+    <Navbar className={polymon? "polymon-header header" : 'header' || openpack? 'openpack-header header': 'header' || store? 'store-header header' : 'header'}>
       <Navbar.Brand href="#home">
         <Image
         //   loader={myLoader}
