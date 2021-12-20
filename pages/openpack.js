@@ -5,7 +5,7 @@ import OpenPackHero from '../components/openpack/OpenPackHero'
 const openpack = () => {
     return (
         <div className='openpack-wrapper'>
-            <Header/>
+            <Header openpack={true}/>
             <OpenPackHero/>
         </div>
     )

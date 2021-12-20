@@ -6,7 +6,7 @@ const Banner = () => {
     return (
         <div>
             <div className='store-banner'>
-                <Header/>
+                <Header store={true}/>
                 <Container>
                 <h1>STORE</h1>
                 </Container>
