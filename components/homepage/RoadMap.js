@@ -3,13 +3,15 @@ import React from "react";
 import BITIC from "../../public/assets/images/BITIC.svg";
 
 const RoadMap = () => {
+  const img = 'https://public/assets/images'
   return (
     <div className="RoadMap-Wrapper">
       <h1 className="roadmapheadeing">ROADMAP</h1>
       <div className="RoadMap-cards">
         <div className="RoadMap-leftcard">
           <div className="RoadMap-img">
-            <Image src={BITIC} />
+            {/* <Image src={img} /> */}
+            <img src="" alt="" />
           </div>
           <div className="RoadMap-card-contect">
             <h4>ALPHA</h4>
