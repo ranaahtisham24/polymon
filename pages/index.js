@@ -4,7 +4,6 @@ import Banner from "../components/homepage/Banner";
 import DiscoverList from "../components/homepage/DiscoverList";
 import RoadMap from "../components/homepage/RoadMap";
 import TokenSupply from "../public/assets/images/tokennnomics.svg";
-import homefooterbg from "../public/assets/images/homefooterbg.svg";
 
 export default function Home() {
   return (

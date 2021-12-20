@@ -14,21 +14,22 @@ a {
 * {
   box-sizing: border-box;
 }
-h1{
-    font-size: 50px;
-    text-align: center;
-    font-weight: bold;
+h1 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
 }
-p{
-    text-align: center;
-    font-size: 13px;
+p {
+  text-align: center;
+  font-size: 13px;
 }
-input:focus{
-    outline: none;
+input:focus {
+  outline: none;
 }
 /*================================ Home Page ========================= */
 .banner {
-    background-image: linear-gradient(#1e2947c4, #8648e521), url(../public/assets/images/homeherobg.svg);
+  background-image: linear-gradient(#1e2947c4, #8648e521),
+    url(../public/assets/images/homeherobg.svg);
   /* background-image: url(../public/assets/images/homeherobg.svg); */
   height: 100vh;
   background-size: cover;
@@ -49,151 +50,230 @@ input:focus{
 /* start of openPack */
 
 .openpack-wrapper {
-    background: url("../public/assets/images/Openpackpagebg.svg") no-repeat;
-    background-size: cover;
-    background-position: unset;
-    height: 50rem;
-    width: 100%;
+  background: url("../public/assets/images/Openpackpagebg.svg") no-repeat;
+  background-size: cover;
+  background-position: unset;
+  height: 50rem;
+  width: 100%;
 }
 
-.bannerbutton{
-    border: none;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px 40px;
-    border-radius: 30px;
-    background-color: #8D4FEC;
+.bannerbutton {
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 40px;
+  border-radius: 30px;
+  background-color: #8d4fec;
 }
-.bannercontent h1{
-    font-size: 50px;
+.bannercontent h1 {
+  font-size: 50px;
 }
-.bastset{
-    color: white;
-    height: 100vh;
-    /* background-color: #1E2947; */
-    background-image: linear-gradient(to bottom, #1E2947, #1E2947);
+.bastset {
+  color: white;
+  height: 80vh;
+  /* background-color: #1E2947; */
+  padding-top: 50px;
+  background-image: linear-gradient(to bottom, #1e2947, #1e2947);
 }
-.POLYMON{
-    background-color: #1E2947;
-    color: white;
-    height: 80vh;
+.mainbast-wrapper {
+  position: relative;
 }
-.POLYMON-content{
-    padding: 50px;
-    width: 50%;
-    margin: 0 auto;
+.POLYMON {
+  background-color: #1e2947;
+  color: white;
+  height: 80vh;
 }
-.Discover{
-    padding: 40px 0px;
+.POLYMON-content {
+  padding: 50px;
+  width: 50%;
+  margin: 0 auto;
 }
-.DiscoverCard{
-    margin: 10px;
-} 
-.RoadMap-Wrapper{
-    background-color: #1E2947;
-    padding: 50px 50px;
-    color: white;
+.Discover {
+  padding: 40px 0px;
+  background-color: #f2e8ff;
 }
-.RoadMap-leftcard{
-    box-shadow: 0px 0px 20px 0px #888888;
-    background-color: #fff;
-    align-items: center;
-    border-radius: 5px;
-    color: black;
-    display: flex;
-    width: 450px;
-    height: 150px;
-    margin: 0 auto;
+.DiscoverCard {
+  margin: 10px;
 }
-.RoadMap-rightcard{
-    box-shadow: 0px 0px 20px 0px #888888;
-    background-color: #fff;
-    align-items: center;
-    border-radius: 5px;
-    color: black;
-    display: flex;
-    width: 450px;
-    height: 150px;
-    margin-left: 400px;
+.RoadMap-Wrapper {
+  background-color: #1e2947;
+  padding: 50px 50px;
+  color: white;
 }
-.RoadMap-card-contect p{
-    text-align: left;
-    margin-bottom: 0px;
+.RoadMap-leftcard {
+  box-shadow: 0px 0px 20px 0px #888888;
+  background-color: #fff;
+  align-items: center;
+  border-radius: 5px;
+  color: black;
+  display: flex;
+  width: 450px;
+  height: 150px;
+  margin: 0 auto;
 }
-.RoadMap-img{
-    text-align: center;
+.RoadMap-rightcard {
+  box-shadow: 0px 0px 20px 0px #888888;
+  background-color: #fff;
+  align-items: center;
+  border-radius: 5px;
+  color: black;
+  display: flex;
+  width: 450px;
+  height: 150px;
+  margin-left: 400px;
 }
-.RoadMap-img img{
-    width: 180px !important;
-    height: 135px !important;
-    margin-top: 3px !important;
+.RoadMap-card-contect p {
+  text-align: left;
+  margin-bottom: 0px;
 }
-.RoadMap-card-contect{
-    width: 50%;
+.RoadMap-img {
+  text-align: center;
 }
-.RoadMap-cards{
-    width: 70%;
-    margin: 0 auto;
+.RoadMap-img img {
+  width: 180px !important;
+  height: 135px !important;
+  margin-top: 3px !important;
 }
-.roadmapheadeing{
-    margin-bottom: 40px;
+.RoadMap-card-contect {
+  width: 50%;
 }
-.TokenSupply{
-    text-align: center;
-    padding: 50px 0px;
+.RoadMap-cards {
+  width: 70%;
+  margin: 0 auto;
 }
-.TokenSupplyImg{
-    width: 35%;
-    margin: 0 auto;
+.roadmapheadeing {
+  margin-bottom: 40px;
 }
-.emailMarkting{
-    background-image: url(../public/assets/images/homefooterbg.svg);
-    background-position: initial;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color: #8648E5;
-    height: 70vh;
-    padding: 50px 0px;
+.TokenSupply {
+  text-align: center;
+  padding: 50px 0px;
 }
-.emailMarktingform{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #8648E5;
-    height: 100%;
-    width: 70%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    color: white;
-    margin: 0 auto;
-    border-radius: 5px;
-    box-shadow: 0px 0px 20px 0px #AB79F8;
+.TokenSupplyImg {
+  width: 35%;
+  margin: 0 auto;
 }
-.emailMarktingforminput input{
-    padding: 13px 130px 13px 15px;
-    border: 0px;
-    width: 100%;
-    border-radius: 30px;
+.emailMarkting {
+  background-image: url(../public/assets/images/homefooterbg.svg);
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #8648e5;
+  height: 70vh;
+  padding: 50px 0px;
 }
-.emailMarktingforminput button{
-    border: none;
-    color: white;
-    border-radius: 30px;
-    padding: 10px 40px;
-    background-color: #1E2947;
-    position: absolute;
-    right: 3px;
-    top: 3px;
+.emailMarktingform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #8648e5;
+  height: 100%;
+  width: 70%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 0px #ab79f8;
+  text-align: center;
 }
-.emailMarktingforminput{
-    position: relative;
-    width: 50%;
-    margin: 30px auto 0px auto;
+.emailMarktingforminput input {
+  padding: 13px 130px 13px 15px;
+  border: 0px;
+  width: 100%;
+  border-radius: 30px;
 }
-
+.emailMarktingforminput button {
+  border: none;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 40px;
+  background-color: #1e2947;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+}
+.emailMarktingforminput {
+  position: relative;
+  width: 50%;
+  margin: 30px auto 0px auto;
+}
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 25px;
+  height: 25px;
+  padding: 1.5px 0px 0px 0.5px;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: #8d4fec;
+  border: none;
+  outline: none;
+  background: #8d4fec;
+  border-radius: 100%;
+}
+body .BastsetList  .slick-prev:before,
+body .BastsetList .slick-next:before {
+  font-family: "slick";
+  font-size: 35px;
+  line-height: 1;
+  opacity: 0.75;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.BastsetList {
+  width: 70%;
+  margin: 0 auto;
+}
+.BastsetList-matic {
+  color: black;
+}
+.BastsetList-title {
+  color: black;
+}
+.BastsetList .slick-list {
+  width: 90%;
+  margin: 0 auto;
+}
+.BastsetList-wrapper {
+  background-color: #8d4fec;
+  height: 80vh;
+  position: relative;
+}
+.inner-BastsetList-wrapper {
+  position: absolute;
+  top: -46.5%;
+  left: 0px;
+  right: 0px;
+}
+.inner-DiscoverList-wrapper{
+  padding: 50px 0px;
+}
+body .DiscoverList-slider .slick-prev {
+  left: 46%;
+  top: 108%;
+}
+body .DiscoverList-slider .slick-next {
+  right: 46%;
+  top: 108%;
+}
+body .DiscoverList-slider .slick-prev:before{
+  font-size: 35px;
+  color: #8d4fec;
+}
+body .DiscoverList-slider .slick-next:before{
+  font-size: 35px;
+  color: #8d4fec;
+}
 /*================================ Home Page ========================= */
 /*================================ openpack ========================= */
 
@@ -219,10 +299,10 @@ input:focus{
   font-size: 4rem;
   font-weight: bold;
   word-break: unset;
-    font-size: 4rem;
-    font-weight: bold;
-    word-break: unset;
-    letter-spacing: -2px;
+  font-size: 4rem;
+  font-weight: bold;
+  word-break: unset;
+  letter-spacing: -2px;
 }
 
 .openpack-hero-left button {
@@ -245,56 +325,48 @@ input:focus{
 
 /*================================ openpack========================= */
 /*================================ Header========================= */
-.header {
-  padding: 0px 40px;
-    width: 100;
-    height: 100vh;
-}
 
 .openpack-hero-right div {
-    background: url("../public/assets/images/OpenpackheroRImg.svg") no-repeat;
-    background-size: contain;
-    background-position: center;
-    width: 86%;
-    margin-left: 4rem;
-    height: 100%;
+  background: url("../public/assets/images/OpenpackheroRImg.svg") no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 86%;
+  margin-left: 4rem;
+  height: 100%;
 }
 
 .openpakrow {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .innerimage {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-
 /* end of openPack */
-
 
 /* start of store */
 
 .store-banner {
-    background: url("../public/assets/images/headerbg.svg") no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 22rem;
-    /* display: flex; */
-    /* align-items: center; */
+  background: url("../public/assets/images/headerbg.svg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 22rem;
+  /* display: flex; */
+  /* align-items: center; */
 }
 
 .store-banner h1 {
-    font-size: 4rem;
-    font-weight: 700;
-    color: white;
-    padding-left: 3rem;
-    padding-top: 2rem;
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+  padding-left: 3rem;
+  padding-top: 2rem;
 }
-
 
 /* end of store */
 
@@ -309,15 +381,15 @@ input:focus{
   border-radius: 20px;
   background-color: #8648e5;
   color: white;
-    padding: 5px 15px;
-    border: 0px;
-    border-radius: 20px;
-    background-color: #8648e5;
-    color: white;
+  padding: 5px 15px;
+  border: 0px;
+  border-radius: 20px;
+  background-color: #8648e5;
+  color: white;
 }
 
 .header {
-    padding: 2rem 8rem !important;
+  padding: 2rem 8rem !important;
 }
 /*================================ Header========================= */
 /*================================ Footer========================= */

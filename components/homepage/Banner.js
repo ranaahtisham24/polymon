@@ -1,9 +1,14 @@
 import React from "react";
+import Header from "../header/Header";
+import BastsetList from "./BastsetList";
 
 const Banner = () => {
   return (
     <>
       <div className="banner">
+        <div className="homeheader">
+          <Header />
+        </div>
         <div className="bannercontent">
           <h1>COLLECT, TRADE AND PLAY YOUR POLYMON</h1>
           <p>
@@ -15,13 +20,18 @@ const Banner = () => {
           <button className="bannerbutton">Discover</button>
         </div>
       </div>
-      {/* <div className="bastset">
-        <h1> BASE SET</h1>
-        <p>
-          Polymon exist in many shapes and forms, each differing in unique looks
-          and rarity. Ranging from the most common, to the rarest!
-        </p>
-      </div> */}
+      <div className="mainbast-wrapper">
+        <div className="bastset">
+          <h1> BASE SET</h1>
+          <p>
+            Polymon exist in many shapes and forms, each differing in unique
+            looks and rarity. Ranging from the most common, to the rarest!
+          </p>
+        </div>
+        <div className="BastsetList-wrapper">
+          <BastsetList />
+        </div>
+      </div>
     </>
   );
 };
