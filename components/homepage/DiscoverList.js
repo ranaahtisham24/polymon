@@ -17,77 +17,53 @@ const DiscoverList = () => {
   };
   const storeCards = [
     {
-      cardImg: "/assets/images/Base set Ance.svg",
+      cardImg: '/assets/images/BITIC.svg',
       cardTitle: "ANCE",
       logo: "/assets/images/prductlogo.svg",
       logoTitle: "Ance created by BSC. A man bred PolyMon.",
     },
     {
-      cardImg: "/assets/images/product.svg",
+      cardImg: '/assets/images/ETHE.svg',
       cardTitle: "BITIC",
       logo: "/assets/images/prductlogo.svg",
       logoTitle: "Ance created by BSC. A man bred PolyMon.",
     },
     {
-      cardImg: "/assets/images/product.svg",
+      cardImg: '/assets/images/CARDA.svg',
       cardTitle: "ETHE",
       logo: "/assets/images/prductlogo.svg",
       logoTitle: "Ance created by BSC. A man bred PolyMon.",
     },
     {
-      cardImg: "/assets/images/Base set Ance.svg",
+      cardImg: '/assets/images/LYGON.svg',
       cardTitle: "ANCE",
       logo: "/assets/images/prductlogo.svg",
       logoTitle: "Ance created by BSC. A man bred PolyMon.",
     },
     {
-      cardImg: "/assets/images/Base set Ance.svg",
+      cardImg: '/assets/images/Polycat 3.svg',
       cardTitle: "ANCE",
       logo: "/assets/images/prductlogo.svg",
       logoTitle: "Ance created by BSC. A man bred PolyMon.",
     },
     {
-      cardImg: "/assets/images/product.svg",
+      cardImg: '/assets/images/Polycat 2.svg',
       cardTitle: "BITIC",
       logo: "/assets/images/prductlogo.svg",
       logoTitle: "Ance created by BSC. A man bred PolyMon.",
     },
     {
-      cardImg: "/assets/images/product.svg",
+      cardImg: '/assets/images/Polycat 1.svg',
       cardTitle: "ETHE",
       logo: "/assets/images/prductlogo.svg",
       logoTitle: "Ance created by BSC. A man bred PolyMon.",
     },
     {
-      cardImg: "/assets/images/Base set Ance.svg",
+      cardImg: '/assets/images/ANCE.svg',
       cardTitle: "ANCE",
       logo: "/assets/images/prductlogo.svg",
       logoTitle: "Ance created by BSC. A man bred PolyMon.",
-    },
-    {
-      cardImg: "/assets/images/Base set Ance.svg",
-      cardTitle: "ANCE",
-      logo: "/assets/images/prductlogo.svg",
-      logoTitle: "Ance created by BSC. A man bred PolyMon.",
-    },
-    {
-      cardImg: "/assets/images/product.svg",
-      cardTitle: "BITIC",
-      logo: "/assets/images/prductlogo.svg",
-      logoTitle: "Ance created by BSC. A man bred PolyMon.",
-    },
-    {
-      cardImg: "/assets/images/product.svg",
-      cardTitle: "ETHE",
-      logo: "/assets/images/prductlogo.svg",
-      logoTitle: "Ance created by BSC. A man bred PolyMon.",
-    },
-    {
-      cardImg: "/assets/images/Base set Ance.svg",
-      cardTitle: "ANCE",
-      logo: "/assets/images/prductlogo.svg",
-      logoTitle: "Ance created by BSC. A man bred PolyMon.",
-    },
+    }
   ];
   return (
     <div className="DiscoverList">
@@ -106,8 +82,8 @@ const DiscoverList = () => {
                 }}
                 key={ind}
               >
-                <div style={{ margin: "6px" }}>
-                  <Card.Img src={obj.cardImg} />
+                <div style={{ margin: '6px', background: 'linear-gradient(to right, #8338EC, #e2a58d)', borderTopLeftRadius: '8px', borderTopRightRadius: '8px', height: '200px' }}>
+                  <Card.Img style={{height: '100%', width: '100%'}} src={obj.cardImg} />
                 </div>
                 <Card.Body style={{ padding: "10px" }}>
                   <Card.Title

@@ -25,7 +25,7 @@ const Banner = () => {
           <h1> BASE SET</h1>
           <p>
             Polymon exist in many shapes and forms, each differing in unique
-            looks and rarity. Ranging from the most common, to the rarest!
+            looks and <br /> rarity. Ranging from the most common, to the rarest!
           </p>
         </div>
         <div className="BastsetList-wrapper">
