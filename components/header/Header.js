@@ -21,6 +21,7 @@ const Header = ({ polymon, store, openpack }) => {
       }
     >
       <Navbar.Brand href="#home">
+      <Link href="/">
         <Image
           //   loader={myLoader}
           src={logo}
@@ -28,6 +29,7 @@ const Header = ({ polymon, store, openpack }) => {
           width={150}
           height={0}
         />
+      </Link>
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse className="justify-content-end">

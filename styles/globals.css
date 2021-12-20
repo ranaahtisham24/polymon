@@ -1,36 +1,34 @@
 html,
 body {
-    padding: 0;
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 input:focus {
   outline: none;
 }
-h1 {
-    font-size: 50px;
-    text-align: center;
-    font-weight: bold;
-}
-
-p {
-    text-align: center;
-    font-size: 13px;
-}
 
 input:focus {
-    outline: none;
+  outline: none;
 }
-
+body button:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+body button:active {
+  box-shadow: none !important;
+  outline: none !important;
+}
 
 /*================================ Home Page ========================= */
 
@@ -42,12 +40,13 @@ input:focus {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: initial;
-    background-image: linear-gradient(#1e2947c4, #8648e521), url(../public/assets/images/homeherobg.svg);
-    /* background-image: url(../public/assets/images/homeherobg.svg); */
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: initial;
+  background-image: linear-gradient(#1e2947c4, #8648e521),
+    url(../public/assets/images/homeherobg.svg);
+  /* background-image: url(../public/assets/images/homeherobg.svg); */
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: initial;
 }
 .bannercontent h1 {
   font-size: 50px;
@@ -59,16 +58,15 @@ input:focus {
   font-size: 13px;
 }
 .bannercontent {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 40%;
-    margin: 0 auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 40%;
+  margin: 0 auto;
 }
-
 
 /* start of openPack */
 
@@ -159,6 +157,7 @@ input:focus {
 }
 .roadmapheadeing {
   margin-bottom: 40px;
+  text-align: center;
 }
 .TokenSupply {
   text-align: center;
@@ -235,7 +234,7 @@ input:focus {
   background: #8d4fec;
   border-radius: 100%;
 }
-body .BastsetList  .slick-prev:before,
+body .BastsetList .slick-prev:before,
 body .BastsetList .slick-next:before {
   font-family: "slick";
   font-size: 35px;
@@ -270,7 +269,7 @@ body .BastsetList .slick-next:before {
   left: 0px;
   right: 0px;
 }
-.inner-DiscoverList-wrapper{
+.inner-DiscoverList-wrapper {
   padding: 50px 0px;
 }
 body .DiscoverList-slider .slick-prev {
@@ -281,196 +280,188 @@ body .DiscoverList-slider .slick-next {
   right: 46%;
   top: 108%;
 }
-body .DiscoverList-slider .slick-prev:before{
+body .DiscoverList-slider .slick-prev:before {
   font-size: 35px;
   color: #8d4fec;
 }
-body .DiscoverList-slider .slick-next:before{
+body .DiscoverList-slider .slick-next:before {
   font-size: 35px;
   color: #8d4fec;
-
-    border: none;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px 40px;
-    border-radius: 30px;
-    background-color: #8D4FEC;
 }
 
 .bannercontent h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .bastset {
-    color: white;
-    height: 100vh;
-    /* background-color: #1E2947; */
-    background-image: linear-gradient(to bottom, #1E2947, #1E2947);
+  color: white;
+  height: 100vh;
+  text-align: center;
+  /* background-color: #1E2947; */
+  background-image: linear-gradient(to bottom, #1e2947, #1e2947);
 }
 
 .POLYMON {
-    background-color: #1E2947;
-    color: white;
-    height: 80vh;
+  background-color: #1e2947;
+  color: white;
+  height: 80vh;
 }
 
 .POLYMON-content {
-    padding: 50px;
-    width: 50%;
-    margin: 0 auto;
+  padding: 50px;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .Discover {
-    padding: 40px 0px;
+  padding: 40px 0px;
+  text-align: center;
 }
 
 .DiscoverCard {
-    margin: 10px;
+  margin: 10px;
 }
 
 .RoadMap-Wrapper {
-    background-color: #1E2947;
-    padding: 50px 50px;
-    color: white;
+  background-color: #1e2947;
+  padding: 50px 50px;
+  color: white;
 }
 
 .RoadMap-leftcard {
-    box-shadow: 0px 0px 20px 0px #888888;
-    background-color: #fff;
-    align-items: center;
-    border-radius: 5px;
-    color: black;
-    display: flex;
-    width: 450px;
-    height: 150px;
-    margin: 0 auto;
+  box-shadow: 0px 0px 20px 0px #888888;
+  background-color: #fff;
+  align-items: center;
+  border-radius: 5px;
+  color: black;
+  display: flex;
+  width: 450px;
+  height: 150px;
+  margin: 0 auto;
 }
 
 .RoadMap-rightcard {
-    box-shadow: 0px 0px 20px 0px #888888;
-    background-color: #fff;
-    align-items: center;
-    border-radius: 5px;
-    color: black;
-    display: flex;
-    width: 450px;
-    height: 150px;
-    margin-left: 400px;
+  box-shadow: 0px 0px 20px 0px #888888;
+  background-color: #fff;
+  align-items: center;
+  border-radius: 5px;
+  color: black;
+  display: flex;
+  width: 450px;
+  height: 150px;
+  margin-left: 400px;
 }
 
 .RoadMap-card-contect p {
-    text-align: left;
-    margin-bottom: 0px;
+  text-align: left;
+  margin-bottom: 0px;
 }
 
 .RoadMap-img {
-    text-align: center;
+  text-align: center;
 }
 
 .RoadMap-img img {
-    width: 180px !important;
-    height: 135px !important;
-    margin-top: 3px !important;
+  width: 180px !important;
+  height: 135px !important;
+  margin-top: 3px !important;
 }
 
 .RoadMap-card-contect {
-    width: 50%;
+  width: 50%;
 }
 
 .RoadMap-cards {
-    width: 70%;
-    margin: 0 auto;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .roadmapheadeing {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .TokenSupply {
-    text-align: center;
-    padding: 50px 0px;
+  text-align: center;
+  padding: 50px 0px;
 }
 
 .TokenSupplyImg {
-    width: 35%;
-    margin: 0 auto;
+  width: 35%;
+  margin: 0 auto;
 }
 
 .emailMarkting {
-    background-image: url(../public/assets/images/homefooterbg.svg);
-    background-position: initial;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color: #8648E5;
-    height: 70vh;
-    padding: 50px 0px;
+  background-image: url(../public/assets/images/homefooterbg.svg);
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #8648e5;
+  height: 70vh;
+  padding: 50px 0px;
 }
 
 .emailMarktingform {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #8648E5;
-    height: 100%;
-    width: 70%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    color: white;
-    margin: 0 auto;
-    border-radius: 5px;
-    box-shadow: 0px 0px 20px 0px #AB79F8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #8648e5;
+  height: 100%;
+  width: 70%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 0px #ab79f8;
 }
 
 .emailMarktingforminput input {
-    padding: 13px 130px 13px 15px;
-    border: 0px;
-    width: 100%;
-    border-radius: 30px;
+  padding: 13px 130px 13px 15px;
+  border: 0px;
+  width: 100%;
+  border-radius: 30px;
 }
 
 .emailMarktingforminput button {
-    border: none;
-    color: white;
-    border-radius: 30px;
-    padding: 10px 40px;
-    background-color: #1E2947;
-    position: absolute;
-    right: 3px;
-    top: 3px;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 40px;
+  background-color: #1e2947;
+  position: absolute;
+  right: 3px;
+  top: 3px;
 }
 
 .emailMarktingforminput {
-    position: relative;
-    width: 50%;
-    margin: 30px auto 0px auto;
+  position: relative;
+  width: 50%;
+  margin: 30px auto 0px auto;
 }
 
-
 /*================================ Home Page ========================= */
-
 
 /*================================ openpack ========================= */
 
 .openpack-wrapper {
-    background: url("../public/assets/images/Openpackpagebg.svg") no-repeat;
-    background-size: cover;
-    background-position: unset;
-    height: fit-content;
-    width: 100%;
+  background: url("../public/assets/images/Openpackpagebg.svg") no-repeat;
+  background-size: cover;
+  background-position: unset;
+  height: fit-content;
+  width: 100%;
 }
 
 .openpack-hero-left {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
 }
 
 .openpack-hero-left h1 {
@@ -481,39 +472,37 @@ body .DiscoverList-slider .slick-next:before{
   font-weight: bold;
   word-break: unset;
   letter-spacing: -2px;
-    font-size: 4rem;
-    font-weight: bold;
-    word-break: unset;
-    font-size: 4rem;
-    font-weight: bold;
-    word-break: unset;
-    letter-spacing: -2px;
+  font-size: 4rem;
+  font-weight: bold;
+  word-break: unset;
+  font-size: 4rem;
+  font-weight: bold;
+  word-break: unset;
+  letter-spacing: -2px;
 }
 
 .openpack-hero-left button {
-    border-radius: 50px;
-    background-color: #8338ec;
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 1.5rem 3rem;
+  border-radius: 50px;
+  background-color: #8338ec;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1.5rem 3rem;
 }
 
 .openpack-hero-right {
-    width: 100;
-    height: 50vh;
+  width: 100;
+  height: 50vh;
 }
 
 .openpack-hero-right div {
-    background: url("../public/assets/images/OpenpackheroRImg.svg") no-repeat;
-    background-size: contain;
+  background: url("../public/assets/images/OpenpackheroRImg.svg") no-repeat;
+  background-size: contain;
 }
-
 
 /*================================ openpack========================= */
 
-
 /*================================ Header========================= */
-.store-banner  h1{
+.store-banner h1 {
   text-align: left;
 }
 .openpack-hero-right div {
@@ -536,14 +525,17 @@ body .DiscoverList-slider .slick-next:before{
   align-items: center;
   justify-content: center;
 }
-.innerimage img{
+.innerimage img {
   height: 80vh;
 }
 
 /* end of openPack */
 
 /* start of store */
-
+body .available-btn {
+  background-color: #bca657 !important;
+  font-size: 12px;
+}
 .store-banner {
   background: url("../public/assets/images/headerbg.svg") no-repeat;
   background-size: cover;
@@ -563,31 +555,29 @@ body .DiscoverList-slider .slick-next:before{
 
 /* end of store */
 
-
 /* start of polymon */
 
 .polymon-main-container .page-link {
-    border-radius: 50%;
-    border: 2px solid#8338EC;
-    color: #8338EC;
-    font-weight: 700;
-    margin-right: 6px;
-    background: none;
+  border-radius: 50%;
+  border: 2px solid#8338EC;
+  color: #8338ec;
+  font-weight: 700;
+  margin-right: 6px;
+  background: none;
 }
 
 .polymon-main-container .page-item.active .page-link {
-    background-color: #8338EC;
-    color: white;
+  background-color: #8338ec;
+  color: white;
 }
-
 
 /* end of polymon */
 
 body .header .headermenu a {
-    padding: 10px 20px;
-    text-decoration: none;
-    color: rgb(194, 154, 255);
-    font-weight: 500;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: rgb(194, 154, 255);
+  font-weight: 500;
 }
 
 .contact {
@@ -608,54 +598,119 @@ body .header .headermenu a {
 }
 
 body .polymon-header .headermenu button {
-    /* background-color: rgb(30, 41, 71); */
-    background-color: rgb(76 86 114);
+  /* background-color: rgb(30, 41, 71); */
+  background-color: rgb(76 86 114);
 }
-
 
 /* body .openpack-header .headermenu a {
     color: white;
 }  */
 
 .footer {
-    background-color: hsl(224, 41%, 20%);
+  background-color: hsl(224, 41%, 20%);
 }
 
 .footercont {
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footercopyright p {
-    margin-bottom: 0px;
-    color: white;
+  margin-bottom: 0px;
+  color: white;
 }
 
 .footercopyright {
-    width: 30%;
-    text-align: center;
+  width: 30%;
+  text-align: center;
 }
 
 .footerlogo {
-    width: 30%;
-    padding-top: 10px;
-    text-align: center;
+  width: 30%;
+  padding-top: 10px;
+  text-align: center;
 }
 
 .footersocial {
-    width: 30%;
-    padding-top: 10px;
-    text-align: center;
+  width: 30%;
+  padding-top: 10px;
+  text-align: center;
 }
 
-.footersocial img {
+/* .footersocial img {
     padding: 10px;
-    width: 30px !important;
-    height: 30px !important;
-}
+    width: 30px;
+    height: 30px;
+} */
 
+.footersocial .footerM {
+  width: 40px !important;
+  height: 40px !important;
+  margin: 0 10px;
+}
+.footersocial .footerM img {
+  width: 35px !important;
+  height: 35px !important;
+}
 
 /*================================ Footer========================= */
+.popupmodal .modal-content {
+  background-color: #8648e5;
+}
+.popupmodal {
+  background-color: #1e2947;
+  color: white;
+}
+.popupcontent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.popupimg {
+  width: 35%;
+}
+.popupDetail {
+  width: 65%;
+}
+.popup-mat {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding-top: 10px;
+}
+.popup-mat-img {
+  width: 50px;
+  height: 50px;
+}
+.popup-mat-img img {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 100%;
+}
+.popupmodal .modal-content .popupcrosbtn {
+  width: fit-content;
+  float: right;
+  margin-bottom: 0px;
+  border: none;
+}
+.popupcrosbtn button {
+  color: white;
+}
+.popupDetail {
+  padding-left: 50px;
+}
+.popupBtn{
+  margin-top: 30px;
+  background-color: #1e2947;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+#ex1Slider .slider-selection {
+	background: #BABABA;
+}

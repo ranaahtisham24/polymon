@@ -14,7 +14,7 @@ const Footer = () => {
         <Col className="footercopyright">
           <p>© 2021 POLYMON. ALL RIGHTS RESERVED.</p>
         </Col>
-        <Col  className="footerlogo">
+        <Col className="footerlogo">
           <Image
             src={logo}
             alt="Picture of the author"
@@ -23,8 +23,12 @@ const Footer = () => {
           />
         </Col>
         <Col className="footersocial">
-          <Image src={twitter} />
-          <Image src={footerDsvg} />
+          <span className="footerM m-0">
+            <Image src={twitter} />
+          </span>
+          <span className="footerM">
+            <Image src={footerDsvg} />
+          </span>
           <Image src={footerM} />
         </Col>
       </div>
