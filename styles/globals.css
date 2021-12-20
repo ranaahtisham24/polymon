@@ -77,7 +77,7 @@ a:focus {
 /*================================ Home Page ========================= */
 
 .banner {
-    background: linear-gradient(to bottom, #7242c7, #1e2947);
+    background: linear-gradient(to bottom, #7242c705, #1e2947), url(../public/assets/images/homeherobg.svg);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -134,13 +134,6 @@ a:focus {
     color: white;
     height: 80vh;
 }
-
-.POLYMON-content {
-    padding: 50px;
-    width: 50%;
-    margin: 0 auto;
-}
-
 .Discover {
     padding: 40px 0px;
     background-color: #f2e8ff;
@@ -174,18 +167,6 @@ a:focus {
     padding: 8px;
 }
 
-.RoadMap-rightcard {
-    box-shadow: 0px 0px 20px 0px #888888;
-    background-color: rgb(242, 232, 255) !important;
-    align-items: center;
-    border-radius: 5px;
-    color: black;
-    display: flex;
-    width: 450px;
-    height: 150px;
-    margin-left: 400px;
-}
-
 .RoadMap-card-contect p {
     text-align: left;
     margin-bottom: 0px;
@@ -195,17 +176,6 @@ a:focus {
     text-align: center;
     background-color: rgb(153, 95, 242);
 }
-
-.RoadMap-img img {
-    width: 180px !important;
-    height: 135px !important;
-    margin-top: 3px !important;
-}
-
-.RoadMap-card-contect {
-    width: 50%;
-}
-
 .RoadMap-cards {
     width: 70%;
     margin: 0 auto;
@@ -225,16 +195,6 @@ a:focus {
 .TokenSupplyImg {
     width: 35%;
     margin: 0 auto;
-}
-
-.emailMarkting {
-    background-image: url(../public/assets/images/homefooterbg.svg);
-    background-position: initial;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color: #8648e5;
-    height: 70vh !important;
-    padding: 50px 0px;
 }
 
 .emailMarktingform {
@@ -373,13 +333,14 @@ body .DiscoverList-slider .slick-next:before {
 }
 
 .POLYMON-content {
-    padding: 50px;
+    padding: 6rem 50px;
     width: 59%;
     margin: 0 auto;
     text-align: center;
 }
 
 .POLYMON-content p {
+    margin-top: 3rem;
     color: #dfdfdf;
     font-size: 15px;
     font-family: "Inter";
@@ -411,27 +372,35 @@ body .DiscoverList-slider .slick-next:before {
 }
 
 .RoadMap-leftcard {
-    box-shadow: 0px 0px 20px 0px #888888;
     background-color: #fff;
     align-items: center;
     border-radius: 5px;
     color: black;
     display: flex;
     width: 500px;
-    height: 150px;
+    height: 158px;
     margin: 0 auto;
 }
-
+.FLcard{
+    margin-bottom: -2px;
+    z-index: 99;
+    box-shadow: 0px 6px 20px 0px #1e2947;
+}
+.FRcard{
+    margin-bottom: -1px;
+    z-index: 9;
+    box-shadow: 0px 6px 20px 0px #1e2947;
+}
 .RoadMap-rightcard {
-    box-shadow: 0px 0px 20px 0px #888888;
     background-color: #fff;
     align-items: center;
     border-radius: 5px;
     color: black;
     display: flex;
     width: 500px;
-    height: 150px;
-    margin-left: 200px;
+    height: 158px;
+    padding-left: 7px;
+    margin-left: 435px;
 }
 
 .RoadMap-card-contect h4 {
@@ -457,11 +426,11 @@ body .DiscoverList-slider .slick-next:before {
 .RoadMap-img img {
     width: 180px !important;
     height: 135px !important;
-    margin-top: 3px !important;
 }
 
 .RoadMap-card-contect {
     width: 50%;
+    padding-left: 20px;
 }
 
 .RoadMap-cards {
@@ -499,7 +468,7 @@ body .DiscoverList-slider .slick-next:before {
     background-size: contain;
     background-color: #8648e5;
     height: 70vh;
-    padding: 50px 0px;
+    padding: 70px 0px;
 }
 
 .emailMarktingform {
@@ -520,7 +489,7 @@ body .DiscoverList-slider .slick-next:before {
 }
 
 .emailMarktingforminput input {
-    padding: 13px 130px 13px 15px;
+    padding: 13px 130px 16px 15px;
     border: 0px;
     width: 100%;
     border-radius: 30px;
@@ -570,23 +539,13 @@ body .DiscoverList-slider .slick-next:before {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: left;
     color: white;
 }
 
 .openpack-hero-left h1 {
-    font-size: 4rem;
-    font-weight: bold;
-    word-break: unset;
-    font-size: 4rem;
-    font-weight: bold;
-    word-break: unset;
-    letter-spacing: -2px;
-    font-size: 4rem;
-    font-weight: bold;
-    word-break: unset;
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: bold;
     word-break: unset;
     letter-spacing: -2px;
@@ -598,6 +557,8 @@ body .DiscoverList-slider .slick-next:before {
     font-size: 1.5rem;
     font-weight: bold;
     padding: 1.5rem 3rem;
+    border: none;
+    color: white;
 }
 
 .openpack-hero-right {
@@ -654,23 +615,36 @@ body .DiscoverList-slider .slick-next:before {
 body .available-btn {
     background-color: #bca657 !important;
     font-size: 12px;
+    letter-spacing: 1px;
 }
 
 .store-banner {
-    background: url("../public/assets/images/headerbg.svg") no-repeat;
+    background-image: url("../public/assets/images/sheaderbg.svg");
     background-size: cover;
     width: 100%;
-    height: 22rem;
+    height: 25rem;
     /* display: flex; */
     /* align-items: center; */
 }
-
+.polymonpage-header h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    padding-left: 3rem;
+    padding-top: 4rem;
+}
+.polymonpage-header{
+    background: linear-gradient(#8648E5, #8648E5), url("../public/assets/images/polymonheaderbg.svg") ;
+    background-size: cover;
+    width: 100%;
+    height: 25rem;
+}
 .store-banner h1 {
     font-size: 4rem;
     font-weight: 700;
     color: white;
     padding-left: 3rem;
-    padding-top: 2rem;
+    padding-top: 4rem;
 }
 
 
@@ -722,7 +696,7 @@ body .header .headermenu a {
 
 body .polymon-header .headermenu button {
     /* background-color: rgb(30, 41, 71); */
-    background-color: rgb(76 86 114);
+    background-color: #1E2947;
 }
 
 

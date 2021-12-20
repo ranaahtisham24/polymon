@@ -9,7 +9,7 @@ const OpenPackHero = () => {
             <Row className='openpakrow m-0'>
                 <Col className='openpack-hero-left' md={7}>
                     <h1>COLLECT, TRADE AND PLAY YOUR POLYMON</h1>
-                    <Button size='lg'>BUY BOOSTER PACK</Button>
+                    <button size='lg'>BUY BOOSTER PACK</button>
                 </Col>
                 <Col className='openpack-hero-right' md={5}>
                     <div>

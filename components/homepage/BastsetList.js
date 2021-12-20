@@ -124,6 +124,7 @@ const BastsetList = () => {
                     style={{
                       fontSize: "12px",
                       backgroundColor: "#b39e2c !important",
+                      fontFamily: 'Inter'
                     }}
                   >
                     Available

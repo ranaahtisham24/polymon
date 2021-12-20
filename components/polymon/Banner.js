@@ -7,7 +7,7 @@ const Banner = () => {
     
     return (
         <div>
-            <div className='store-banner'>
+            <div className='polymonpage-header'>
                 <Header polymon={true} />
                 <Container>
                     <h1>POLYMON</h1>

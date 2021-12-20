@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import BITIC from "../../public/assets/images/BITIC.svg";
+import monkey from "../../public/assets/images/monkey.svg";
+import turtle from "../../public/assets/images/turtle.svg";
+import dog from "../../public/assets/images/dog.svg";
 
 const RoadMap = () => {
   const img = 'https://public/assets/images'
@@ -8,10 +10,9 @@ const RoadMap = () => {
     <div className="RoadMap-Wrapper">
       <h1 className="roadmapheadeing">ROADMAP</h1>
       <div className="RoadMap-cards">
-        <div className="RoadMap-leftcard">
+        <div className="RoadMap-leftcard FLcard">
           <div className="RoadMap-img">
-            {/* <Image src={img} /> */}
-            <img src="" alt="" />
+            <Image src={dog} />
           </div>
           <div className="RoadMap-card-contect">
             <h4>ALPHA</h4>
@@ -21,9 +22,9 @@ const RoadMap = () => {
             <p>Strategic Partnerships</p>
           </div>
         </div>
-        <div className="RoadMap-rightcard">
+        <div className="RoadMap-rightcard FRcard">
           <div className="RoadMap-img">
-            <Image src={BITIC} />
+            <Image src={turtle} />
           </div>
           <div className="RoadMap-card-contect">
             <h4>BETA</h4>
@@ -33,7 +34,7 @@ const RoadMap = () => {
         </div>
         <div className="RoadMap-leftcard">
           <div className="RoadMap-img">
-            <Image src={BITIC} />
+            <Image src={monkey} />
           </div>
           <div className="RoadMap-card-contect">
             <h4>GAMMA</h4>
