@@ -542,7 +542,7 @@ body .DiscoverList-slider .slick-next:before {
 }
 
 .openpack-hero-left h1 {
-    font-size: 5rem;
+    font-size: 6vmax;
     font-weight: bold;
     word-break: unset;
     letter-spacing: -2px;
@@ -558,9 +558,17 @@ body .DiscoverList-slider .slick-next:before {
     color: white;
 }
 
+.openpack-hero-left button:hover {
+    background: rgb(194, 154, 255);
+    color: #1E2947 !important;
+}
+
 .openpack-hero-right {
     width: 100;
-    height: 50vh;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .openpack-hero-right div {
@@ -582,8 +590,7 @@ body .DiscoverList-slider .slick-next:before {
     background: url("../public/assets/images/OpenpackheroRImg.svg") no-repeat;
     background-size: contain;
     background-position: center;
-    width: 86%;
-    margin-left: 4rem;
+    width: 90%;
     height: 100%;
 }
 
@@ -601,6 +608,7 @@ body .DiscoverList-slider .slick-next:before {
 
 .innerimage img {
     height: 80vh;
+    margin-left: 10px !important;
 }
 
 
