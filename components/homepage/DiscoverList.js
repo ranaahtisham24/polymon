@@ -95,7 +95,7 @@ const DiscoverList = () => {
                       padding: "0 6px",
                     }}
                   >
-                    <h4 style={{  letterSpacing: "-1px", fontFamily:'Oswald Bold' }}>
+                    <h4 style={{ letterSpacing: "-1px", fontFamily:'Oswald Bold' }}>
                       {obj.cardTitle}
                     </h4>
                   </Card.Title>
