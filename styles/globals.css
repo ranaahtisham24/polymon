@@ -662,9 +662,26 @@ body .available-btn {
     background: none;
 }
 
+.polymon-main-container .page-link:hover {
+    color: white;
+    background: #8338EC;
+}
+
+.polymon-main-container .page-link:focus {
+    color: white;
+    background: #8338EC;
+}
+
+.polymon-main-container .page-link:active {
+    color: white;
+    background: #8338EC;
+    border: 2px solid#8338EC;
+}
+
 .polymon-main-container .page-item.active .page-link {
     background-color: #8338ec;
     color: white;
+    border-color: #8338ec;
 }
 
 
@@ -690,13 +707,22 @@ body .header .headermenu a {
     color: white;
 }
 
+.contact:hover {
+    background: rgb(194, 154, 255);
+    color: #1E2947 !important;
+}
+
 .header {
     padding: 2rem 8rem !important;
 }
 
 body .polymon-header .headermenu button {
-    /* background-color: rgb(30, 41, 71); */
     background-color: #1E2947;
+}
+
+body .polymon-header .headermenu button:hover {
+    color: #1E2947 !important;
+    background: rgb(194, 154, 255);
 }
 
 
