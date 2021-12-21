@@ -27,7 +27,7 @@ const RelatedPost = () => {
         <div style={{backgroundColor:'rgb(247, 242, 254)'}}>
             <Container style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', padding:'6rem 1rem'}}>
                 <h1 style={{marginBottom:'2rem', fontWeight:'700', color:'rgb(30, 41, 71)'}}>RELATED POSTS</h1>
-                <Row>
+                <Row style={{justifyContent:'center', alignItems:'center'}}>
                 {relatedPost.map((obj, ind)=>(
                     <Card style={{ width:'20rem', marginRight: '1rem', marginBottom: '3rem', padding: '0px', border: 'none', borderRadius: '8px' }} key={ind}>
                     <div style={{ margin: '6px', borderTopLeftRadius: '8px', borderTopRightRadius: '8px', background:'linear-gradient(to right, #8338EC, #e2a58d)', height:'12rem', width:'19.3rem' }}>
