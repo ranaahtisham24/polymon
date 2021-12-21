@@ -134,6 +134,7 @@ a:focus {
     color: white;
     height: 80vh;
 }
+
 .Discover {
     padding: 40px 0px;
     background-color: #f2e8ff;
@@ -156,13 +157,13 @@ a:focus {
 
 .RoadMap-leftcard {
     box-shadow: 0px 0px 20px 0px #888888;
-    background-color: rgb(242, 232, 255) !important;
+    background-color: rgb(242, 232, 255);
     align-items: center;
     border-radius: 5px;
     color: black;
     display: flex;
-    width: 450px;
-    height: 150px;
+    width: 500px;
+    height: 158px;
     margin: 0 auto;
     padding: 8px;
 }
@@ -176,6 +177,7 @@ a:focus {
     text-align: center;
     background-color: rgb(153, 95, 242);
 }
+
 .RoadMap-cards {
     width: 70%;
     margin: 0 auto;
@@ -371,28 +373,20 @@ body .DiscoverList-slider .slick-next:before {
     color: white;
 }
 
-.RoadMap-leftcard {
-    background-color: #fff;
-    align-items: center;
-    border-radius: 5px;
-    color: black;
-    display: flex;
-    width: 500px;
-    height: 158px;
-    margin: 0 auto;
-}
-.FLcard{
+.FLcard {
     margin-bottom: -2px;
     z-index: 99;
     box-shadow: 0px 6px 20px 0px #1e2947;
 }
-.FRcard{
+
+.FRcard {
     margin-bottom: -1px;
     z-index: 9;
     box-shadow: 0px 6px 20px 0px #1e2947;
 }
+
 .RoadMap-rightcard {
-    background-color: #fff;
+    background-color: rgb(242, 232, 255);
     align-items: center;
     border-radius: 5px;
     color: black;
@@ -404,7 +398,7 @@ body .DiscoverList-slider .slick-next:before {
 }
 
 .RoadMap-card-contect h4 {
-    font-family: "Inter";
+    font-family: "Oswald Bold";
     font-weight: bold;
     color: #1e2947;
     margin-bottom: 0px;
@@ -439,7 +433,7 @@ body .DiscoverList-slider .slick-next:before {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .roadmapheadeing {
@@ -626,6 +620,7 @@ body .available-btn {
     /* display: flex; */
     /* align-items: center; */
 }
+
 .polymonpage-header h1 {
     font-size: 4rem;
     font-weight: 700;
@@ -633,12 +628,14 @@ body .available-btn {
     padding-left: 3rem;
     padding-top: 4rem;
 }
-.polymonpage-header{
-    background: linear-gradient(#8648E5, #8648E5), url("../public/assets/images/polymonheaderbg.svg") ;
+
+.polymonpage-header {
+    background: linear-gradient(#8648E5, #8648E5), url("../public/assets/images/polymonheaderbg.svg");
     background-size: cover;
     width: 100%;
     height: 25rem;
 }
+
 .store-banner h1 {
     font-size: 4rem;
     font-weight: 700;
@@ -706,6 +703,7 @@ body .polymon-header .headermenu button {
 
 .footer {
     background-color: hsl(224, 41%, 20%);
+    padding: 12px 0px;
 }
 
 .footercont {
