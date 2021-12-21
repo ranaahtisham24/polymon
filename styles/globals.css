@@ -301,12 +301,12 @@ body .DiscoverList-slider .slick-next {
 }
 
 body .DiscoverList-slider .slick-prev:before {
-    font-size: 35px;
+    font-size: 40px;
     color: #8d4fec;
 }
 
 body .DiscoverList-slider .slick-next:before {
-    font-size: 35px;
+    font-size: 40px;
     color: #8d4fec;
 }
 
@@ -349,7 +349,7 @@ body .DiscoverList-slider .slick-next:before {
 }
 
 .Discover {
-    padding: 40px 0px;
+    padding: 50px 0px;
     text-align: center;
 }
 
@@ -402,6 +402,7 @@ body .DiscoverList-slider .slick-next:before {
     font-weight: bold;
     color: #1e2947;
     margin-bottom: 0px;
+    margin-bottom: 6px
 }
 
 .RoadMap-card-contect p {
