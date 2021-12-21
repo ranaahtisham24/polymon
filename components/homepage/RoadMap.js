@@ -32,7 +32,7 @@ const RoadMap = () => {
             <p>NFT Farms</p>
           </div>
         </div>
-        <div className="RoadMap-leftcard RoadMap-leftcard-box">
+        <div className="RoadMap-leftcard">
           <div className="RoadMap-img">
             <Image src={monkey} />
           </div>
